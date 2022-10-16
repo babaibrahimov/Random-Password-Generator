@@ -1,0 +1,141 @@
+    /*Ralevay --> */@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
+    background: linear-gradient(135deg, #5d69be, #c89feb);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    border: 1px solid #333;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px #333;
+}
+
+.box h1
+{
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 3px #333;
+}
+
+.box input
+{
+    font-size: 18px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+button
+{
+    padding: 4px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+#generateBtn
+{
+    background: rgb(91, 238, 91);
+}
+#generateBtn:hover
+{
+    background: rgb(64, 247, 64);
+    border: 1px solid rgb(19, 161, 19);
+}
+
+
+#copyBtn
+{
+    background: #5d69be;
+}
+#copyBtn:hover
+{
+    background: #5668f0;
+    border: 1px solid #3d52f1;
+}
+
+@media(max-width: 758px)
+{
+    h1
+    {
+        font-size: 28px;
+    }
+}
+
+@media(max-width: 548px)
+{
+    .box
+    {
+        padding: 30px 50px;
+    }
+
+    h1
+    {
+        font-size: 24px;
+    }
+
+    .box input
+    {
+        font-size: 16px;
+    }
+
+    button
+    {
+        font-size: 16px;
+    }
+
+    body
+    {
+        padding: 0px 20px;
+    }
+}
+
+@media(max-width: 480px)
+{
+    h1
+    {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 425px)
+{
+    h1
+    {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 368px)
+{
+    h1
+    {
+        font-size: 12px;
+        margin: 0;
+    }
+}
